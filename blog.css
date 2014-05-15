@@ -1,0 +1,26 @@
+body{background-color: lightblue;
+	width: 700px;
+margin: auto;}
+
+#header {font-family: Arial; font-style: bold;
+top: 30px;
+right: 20px;
+color: black;
+margin: 25px, 50px;
+text-align: center;
+font-size: 3.0em}
+
+.content{
+font-family: sans-serif;
+margin: 30px, 200px;
+border: 30px, 200px;
+font-size: 1.4em;
+}
+a:link{color: black;}
+a:visited{color: black;}
+a:hover{color: blue;};
+a:active{color: pink;}
+
+#pic{
+	float: left;
+}
