@@ -39,7 +39,7 @@ a:active{color: pink;}
 font-size: 1.4em;
 width: 45px;
 height: 90px;
-position: absolute;
+position: fixed;
 left: 20px;
 top: 250px;
 color: white;
