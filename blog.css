@@ -1,21 +1,20 @@
 body{background-color: #34C6CD;
-width: 700px;	
-margin: auto}
+margin: 5%}
 
 #header {font-family: Arial; font-style: bold;
 top: 30px;
 right: 20px;
 color: black;
-margin: 25px, 50px;
 text-align: center;
 font-size: 3.0em;
 background-color: #01939A;
-border-radius: 50px;
 border: 2px solid;
 box-shadow: 10px 10px 5px #888888;}
 
 .content{
 font-family: sans-serif;
+width: 700px;
+margin: auto;
 margin: 30px, 200px;
 border: 30px, 200px;
 font-size: 1.4em;
@@ -27,6 +26,11 @@ a:visited{color: black;}
 a:hover{color: blue;};
 a:active{color: pink;}
 
+#date{
+
+	width: 700px;
+	margin: auto;
+}
 #pic{
 	float: left;
 }
@@ -37,10 +41,11 @@ a:active{color: pink;}
 }
 .links{font-family: sans-serif;
 font-size: 1.4em;
-width: 45px;
+width: 40px;
 height: 90px;
-position: fixed;
-left: 20px;
-top: 250px;
+position: absolute;
+right: 70px;
+top: 150px;
+bottom: 100px;
 color: white;
 }
