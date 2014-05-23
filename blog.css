@@ -9,13 +9,14 @@ text-align: center;
 font-size: 3.0em;
 }
 
+
 .content{
 font-size: 1.2em;
-position: relative;
+position: static;
 
 }
 a:link{color: red;}
-a:visited{color: black;}
+a:visited{color: purple;}
 a:hover{color: blue;};
 a:active{color: pink;}
 
