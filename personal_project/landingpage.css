@@ -10,6 +10,7 @@ body{
 	text-align: center;
 	width: 450px;
 	right: 400px;
+	position: fixed;
 }
 
 
@@ -33,8 +34,4 @@ font-family: arial;
 	background-color: #369;
 	border-radius: 25%;
 	color: black;
-}
-#about_me{ 
-	display: none;
-
 }

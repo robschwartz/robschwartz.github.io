@@ -11,12 +11,14 @@ font-size: 3.0em;
 .img{
 	width: 400px;
 	height: 300px;
+	border-radius: 15%
 }
 
 .content{
 font-size: 1.2em;
 position: static;
 margin: 50px 250px;
+font-family: arial;
 
 }
 a:link{color: red;}
