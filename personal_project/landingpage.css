@@ -1,6 +1,7 @@
 body{
 	background-image: url("http://4.bp.blogspot.com/-XHmtuP89bSQ/TkINjZ3C94I/AAAAAAAAAQU/8_OiAYfqxoA/s1600/Chicago-Skyline-at-Night_1_.jpg");
 	background-size: cover;
+	margin: 5%
 
 } 
 #header{
@@ -9,5 +10,27 @@ body{
 	text-align: center;
 	width: 450px;
 	right: 400px;
-	position: absolute;
+}
+
+
+#list ul{
+	margin: 0;
+	padding: 0;
+list-style-type: none;
+font-size: 1.3em;
+font-family: arial;
+}
+
+#list ul li{
+	display: inline;
+}
+#list ul li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+}
+#list ul li a:hover{
+	background-color: #369;
+	border-radius: 25%;
+	color: black;
 }
