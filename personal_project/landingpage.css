@@ -1,16 +1,15 @@
 body{
 	background-image: url("http://4.bp.blogspot.com/-XHmtuP89bSQ/TkINjZ3C94I/AAAAAAAAAQU/8_OiAYfqxoA/s1600/Chicago-Skyline-at-Night_1_.jpg");
 	background-size: cover;
-	margin: 5%
-
 } 
+
 #header{
 	color: white;
 	font-family: sans-serif;
 	text-align: center;
-	width: 450px;
-	right: 400px;
-	position: fixed;
+	font-size: 3em;
+	padding: 40px 20px;
+	text-align: left;
 }
 
 
