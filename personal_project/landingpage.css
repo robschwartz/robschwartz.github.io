@@ -31,6 +31,5 @@ font-family: arial;
 }
 #list ul li a:hover{
 	background-color: #369;
-	border-radius: 25%;
 	color: black;
 }
