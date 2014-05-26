@@ -3,3 +3,11 @@ body{
 	background-size: cover;
 
 } 
+#header{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	width: 450px;
+	right: 400px;
+	position: absolute;
+}
