@@ -49,6 +49,13 @@ font-family: arial;
 #about-me{
 	font-size: 5em;
 	font-family: arial;
-	padding: 30px 50px;
+	padding: 30px 100px;
 
+}
+#exp{
+	background-color: #fff;
+	font-size: 5em;
+	padding: 30px 200px;
+	font-family: arial;
+	color: black;
 }
