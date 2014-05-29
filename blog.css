@@ -20,6 +20,8 @@ font-size: 1.2em;
 position: static;
 margin: 50px 250px;
 font-family: arial;
+border: 10px;
+border-color: black;
 
 }
 a:link{color: black;}
