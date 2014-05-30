@@ -1,11 +1,11 @@
 body{
-background: linear-gradient(#e9e9e9, #5882FA );
+background: linear-gradient(#696969, lightblue );
 margin: 10%, 15%}
 
 #header {font-family: HelveticaNeue-UltraLight; font-style: bold;
 top: 30px;
 right: 20px;
-color: #696969;
+color: #e9e9e9;
 text-align: center;
 font-size: 3.0em;
 }
@@ -20,8 +20,11 @@ font-size: 1.2em;
 position: static;
 margin: 50px 250px;
 font-family: arial;
-border: 10px;
+border: 5px solid;
 border-color: black;
+padding: 30px;
+border-radius: 25px;
+box-shadow: 10px 10px 10px #888888;
 
 }
 a:link{color: black;}
@@ -67,8 +70,9 @@ bottom: 100px;
 .links a:hover{
 	background-color: black;
 	color: white;
-	border-radius: 10%;
+	border-radius: 10px;
 	margin: 10px;
+	padding: 5px
 }
 .about_me{
 	font-family: sans-serif;
