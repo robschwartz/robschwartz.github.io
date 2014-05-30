@@ -48,11 +48,24 @@ font-family: arial;
 	color: yellow;
 }
 #about-me{
-	font-size: 5em;
+	font-size: 4em;
+	color: black;
 	font-family: arial;
-	padding: 30px 100px;
+	padding: 250px 100px 250px 100px;
+	border: 2px solid;
+	border-color: black;
+	background-image: url(http://www.colortrac.com/wp-content/uploads/blueprint1.jpg);
+	background-size: cover;
+	height: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	font-weight: bolder;
+}
+
+#about_me p{
 
 }
+
 #exp{
 	background-color: #fff;
 	font-size: 5em;
