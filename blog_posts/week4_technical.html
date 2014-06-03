@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="blog.css">
+		<title>
+			W4TB
+		</title>
+	</head>
+<body>
+
+	<h1 id="header">Using Enumrable#map</h1><hr>
+	<div class="content">
+	<h3>Rob Schwartz</h3>
+	<h3>June 3 2014</h3>
+	<p>
+Ruby is full of gems that are already built in the language that make it easier to use. As a noob, it's difficult to understand what each of these methods do and how to use them in a practical setting. They seem a bit complex compared to the if/else statements we're used to but in order to be able to use Ruby to its full potential, we must make use of the tools given.</p><br>
+The method we are working with is Enurable#map. Before we understand what the method is used for, we must understand what "Enumrable" actually is, I had no idea before doing some in-depth research.
+Enumrable is a built in Ruby module that allows you to implement a whole list of functions once it's included into the method. One piece I notice while doing research is that in order to use the Enumrable module, you must define your #each method first. We need the each method in order to tell the Enumrable how we want it to iterate over our input.
+<p>
+Here is the basic each method:
+<br><xmp>
+#!/usr/bin/env ruby
+ 
+class Family
+  attr_accessor :name, :address
+  attr_accessor :father, :mother, :child
+ 
+  # We intend to iterate over the members
+  # of the family, the family name and
+  # address are irrelevant here
+  def each
+    yield "#{@father} #{@name}"
+    yield "#{@mother} #{@name}"
+    yield "#{@child} #{@name}"
+  end
+end
+ 
+f = Family.new
+f.name = 'Smith'
+f.address = '13 Main St.'
+f.father = 'Bob'
+f.mother = 'Alice'
+f.child = 'Carol'
+ 
+f.each do|person|
+  puts person
+end</xmp>
+ </p>
+ <p>
+Once we have implemented this method we are ready to call the Enumerable module. What we need the module for is to actually put the input somewhere, whether it be an array or hash. Right now all we are doing is creating the method but it sits in cyber space until we give it a home.</p>
+<p>
+Here is the syntax to include the module:<br>
+<xmp>
+#!/usr/bin/env ruby
+ 
+class Family
+  attr_accessor :name, :address
+  attr_accessor :father, :mother, :child
+ 
+  include Enumerable
+ 
+  # We intend to iterate over the members
+  # of the family, the family name and
+  # address are irrelevant here
+  def each
+    yield "#{@father} #{@name}"
+    yield "#{@mother} #{@name}"
+    yield "#{@child} #{@name}"
+  end
+end
+ 
+f = Family.new
+f.name = 'Smith'
+f.address = '13 Main St.'
+f.father = 'Bob'
+f.mother = 'Alice'
+f.child = 'Carol'
+ 
+puts f.map{|p| "Family member: #{p}" }
+</xmp>
+</p>
+ <p>
+The "Include Enumrable" calls the module into the method, then at the end we call the "map" method to place the iterated material into an array.</p>
+<p>
+The Enumrable module is a very useful tool once you learn how to use it. There are tons of functions to call within it that will make your code clean and easy. You can find a full list here: <a href="http://ruby.about.com/gi/o.htm?zi=1/XJ&zTi=1&sdn=ruby&cdn=compute&tm=2183&f=00&su=p284.13.342.ip_&tt=29&bt=1&bts=1&zu=http%3A//ruby-doc.org/core-1.9.3/Enumerable.html">ruby.about</a>
+It will definitely take practice to master the language but if you learn it at little bits at a time, there is no question you can master it.</p>
+<br>
+Sources:<br>
+<a href="http://www.ruby-doc.org/core-1.9.3/Enumerable.html#method-i-map"> http://www.ruby-doc.org/core-1.9.3/Enumerable.html#method-i-map</a><br>
+<a href="http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/">http://www.sitepoint.com/guide-ruby-collections-iii-enumerable-enumerator/</a> 
+<a href="http://www.merriam-webster.com/dictionary/enumerable
+">http://www.merriam-webster.com/dictionary/enumerable</a> 
+<a href="http://ruby.about.com/od/advancedruby/ss/Using-The-Enumerable-Module.htm
+"> http://ruby.about.com/od/advancedruby/ss/Using-The-Enumerable-Module.htm</a>
+<a href="http://ruby.about.com/gi/o.htm?zi=1/XJ&zTi=1&sdn=ruby&cdn=compute&tm=2183&f=00&su=p284.13.342.ip_&tt=29&bt=1&bts=1&zu=http%3A//ruby-doc.org/core-1.9.3/Enumerable.html"> ruby.about.com</a>
+</div>
+
+<hr>
+&copy Pudge 2014 
+<a href="http://robschwartz.github.io">HomePage</a>
+
+</body>
+
+</html>
