@@ -1,0 +1,53 @@
+<!doctype HTML>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="blog.css">
+		<title>
+		W5TB
+		</title>
+	</head>
+	<body>
+	<h1 id="header">Head of the Class</h1><hr>
+	<div class="content">
+	<h4>Rob Schwartz</h4>
+	<h4>June 11th 2014</h4>
+	<p>
+	Getting into Ruby classes has been a small war with many little battle wins. The first battle was understanding why we use Ruby classes.</p>
+<p>	
+Ruby classes are a fantastic way to create new objects with a pre-loaded set of methods (Learning about classes in CSS helped me understand this as well since I'm more of a visual learner). Instead of defining a method for each new object you implement in the code, you can just create the object into the Class and all the methods will be pre-loaded. I know, not very clear, but hopefully an everyday example will help explain it a bit better.</p>
+<p>
+We will be building technology for new product on the market- a tissue counter that lets you know how many tissues are remaining in your box.</p>
+<p>
+Let's start by ONLY defining our new class</p>
+<!-- img of class -->
+<img src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/Class1.png">
+<p> Not too bad, right? Not too exciting either...
+Let's add an instance variables to the Class</p>
+<!-- img of inst var-->
+<img src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/class2.png">
+<p> This bit of code creates a variable that is only recognized by the created class. With this initialize method we are bringing in outside arguments into the class. Then we convert the arguments into instance variables by adding the @ in front of the argument.
+Let's move on to create a couple methods. For simplicity sake, we will create 2 methods, "sneeze" and "cold". Sneeze will take 1 tissue away from the count and Cold will take away 3 tissues.</p>
+<!-- img of sneeze and cold 
+ -->
+ <img class="img" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/class3.png">
+<p>Pretty straight forward. Let’s create a new object and see the program in action.</p> 
+<!-- img of new object
+ -->
+ <img class="img" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/class4.png">
+ <p>
+One thing to notice is after we call the 2 methods, we would be using in exsisting tissues! Let's add a rule to let us know if we have enough tissues in the box. 
+</p>
+<!-- img of ifs added
+ --><img class="img" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/class5.png">
+<p>
+ Lastly, lets add a counter method and a way to add more tissues. Then let's call all the different methods to see what they would output!
+</p>
+<!-- img of completed class
+ --><img src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/class6.png">
+
+ 		</div>
+		<hr>
+&copy Pudge 2014 
+<a href="http://robschwartz.github.io">HomePage</a>
+	</body>
+</html>
