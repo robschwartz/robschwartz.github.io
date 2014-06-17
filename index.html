@@ -13,13 +13,17 @@
 <!--RECENT POSTS-->
 <div class="links">
 <h2>Recent posts</h2><hr>
+<a href="robschwartz.github.io / blog_posts / week6_cultural.html
+" target="w6cb">Shalom Y'all</a><br><br>
+<a href="http://robschwartz.github.io/blog_posts/week6_technical.html" target="w6tb">Classes vs Modules</a><br><br>
 <a href="http://robschwartz.github.io/blog_posts/week5_technical.html" target="Classes">Head of the Class</a><br><br>
 <a href="http://robschwartz.github.io/blog_posts/week5_cultural.html" target="W5CB">Intv. w/Myself</a><br><br>
 <a href="http://robschwartz.github.io/blog_posts/week4_technical.html" target="W4TB">Enumrable#map</a><br><br>
 <a href="http://robschwartz.github.io/blog_posts/week4_cultural.html" target="W4CB">Supply and Demand</a><br><br>
 <a href="http://robschwartz.github.io/blog_posts/week3_cultural.html">Thinking in AR</a> <br><br>
 <a href="http://robschwartz.github.io/blog_posts/week3_technical.html" target="week 3 tech blog">JavaScript is King</a><br><br>
-<a href="http://robschwartz.github.io/blog_posts/my_wireframe.html" target="My Wireframe">My Wireframe</a><br><br>	
+<a href="http://robschwartz.github.io/blog_posts/my_wireframe.html" target="My Wireframe">My Wireframe</a><br><br>
+<!--Archives-->	
 <a href="http://robschwartz.github.io/blog_posts/archive.html" target="_blank">Archives</a></div>
 
 <!-- About Me-->
@@ -34,6 +38,82 @@ That's me up there. I'm a Chicago native that has been living here for 27 years.
 <a href="mailto:robertschwar@gmail.com"><img class="sm_img" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/Images/google_dark.png"></a>
 </div>
 <!-- New posting here-->
+<!-- week 6 cult blog-->
+ <div class="content">
+<h1 id="header">Shalom Y'all</h1><hr>
+<h4>June 16th 2014</h4>
+<p>
+I am a practicing orthodox Jew.  If you had to guess, without knowing anything about me, what would you say I am good at? 
+<img class="jpg" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/jew1.jpg">
+<ul>
+<li>A- Money Management</li> 
+<li>B- Law</li> 
+<li>C- Medical Science</li>
+<li>D- Greed</li> 
+<li>E-Comedy</li> 
+</ul>
+If you answered A, B, C, D, or E I would say you just stereotyped me. Without knowing me at all, just because I am Jewish, you would immediately assume I fit into one of the pre-mentioned categories. This is the definition of Stereotype Threat. It is when you are automatically categorized based on height, color, physical appearance, religion, and so on.</p>
+<p>
+ Labeling a person as a stereotype can immediately damage your view and relationship with that person professionally. There's a story in which a world-famous violinist, Joshua Bell, goes to play in a NY Metra station in everyday clothes. <img class="jpg" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/violin_story.jpg">No one pays attention to him and either walks by or gives him a short notice of attention. The next night, the same violinist sold out Carnegie Hall where there average ticket was $100.</p>
+<p>
+I grew up in a Jewish community, going to Jewish private school and a Jewish college. Pretty much anywhere I went, there was a small Jewish bubble I stayed in.
+My first real exposure to the non-Jewish world was when I started working my internships in college. It was a fantastic eye-opening experience.</p>
+<p>
+Before starting, I was extremely nervous on how they would view me since I was Jewish. Would they be surprised? Would they make me work past sundown on Friday into the Sabbath? Do they know anything about my culture or background? Maybe I should just try to work for a Jewish company and stay in my bubble. When I came in to work my first day, something incredible happened... nothing.</p>
+<p>
+Nobody pointed at my Yarmulke (head covering), nobody asked me any questions about my religion, and no one thought I should move to the finance department. <img class="jpg" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/jew3.jpg"> They just said "Welcome Rob! We're so happy you be part of the team" and they showed me to my space and got me started with a list of tasks. This was a classic case of self-stereotyping. I put myself in a category that I though OTHERS would place me in.</p>
+<p>
+After being in the professional world for 4 years now, I have made it my business to treat others as I would want to be treated. Don’t see color, height, physical appearance or religion. Just look at their work and professionalism. Can they do the job? Are they polite? Can you see this person as a leader? What can you learn from them? The main rule of thumb is to be professional in a professional place and to judge people from what you know, not what you don't.</p>
+
+<p>I can still always appriciate a good joke. :)
+</p>
+<p>
+<img class="jpg" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/jew2.jpg"></p><br><br><br><br><br><br><br><br><br>
+
+</div>
+  
+    <hr>
+<!-- Week 6 tech blog-->
+<div class="content">
+  <h1 id="header">Modules vs Classes</h1><hr>
+
+    <h4>June 16th 2014</h4>
+  <p>
+The past week, I challenged myself with understanding and implementing Ruby Classes. This week we learn a new similar topic: Ruby Modules. The difference/ similarities between Classes and Modules is a pretty short list from what I understand. Here's what my research led me to believe:</p>
+
+<strong>Modules methods have a global use whereas Class methods are private to that class.</strong>
+<p>
+For a more complicated answer, check out the graph below:</p>
+<img class="img" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/Module%20pic.png">
+<p>
+The Module function is Ruby seems like a good way to DRY. You can create a universal method that you constantly use and define it, sort of like how we define variables. Then when we want to call the Module, you would use the same syntax as calling a class.</p>
+ 
+For example we would create the Module like so:
+<xmp>
+module New 
+
+#insert methods here
+
+end 
+</xmp>
+ 
+Then call it by using the syntax below:
+<xmp>
+module New 
+
+#insert methods here
+
+end 
+
+item = item.New()
+</xmp> 
+ 
+Hopefully this broke down Modules for you and you can run free and start building!
+
+<h5>Sources:</h5>
+<a href="http://stackoverflow.com/questions/151505/difference-between-a-class-and-a-module" target="_blank">Stackoverflow</a>
+  </div>
+    <hr>
 <!-- week 5 tech blog-->
 <div class="content">
 <h1 id="header">Head of the Class</h1><hr>  
