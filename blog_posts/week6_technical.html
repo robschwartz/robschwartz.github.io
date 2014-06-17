@@ -25,9 +25,34 @@ The past week, I challenged myself with understanding and implementing Ruby Clas
 <strong>Modules methods have a global use whereas Class methods are private to that class.</strong>
 <p>
 For a more complicated answer, check out the graph below:</p>
+<img class="img" src="https://raw.githubusercontent.com/robschwartz/robschwartz.github.io/master/blog_posts/images/Module%20pic.png">
+<p>
+The Module function is Ruby seems like a good way to DRY. You can create a universal method that you constantly use and define it, sort of like how we define variables. Then when we want to call the Module, you would use the same syntax as calling a class.</p>
+ 
+For example we would create the Module like so:
+<xmp>
+module New 
 
+#insert methods here
 
+end 
+</xmp>
+ 
+Then call it by using the syntax below:
+<xmp>
+module New 
 
+#insert methods here
+
+end 
+
+item = item.New()
+</xmp> 
+ 
+Hopefully this broke down Modules for you and you can run free and start building!
+
+<h5>Sources:</h5>
+<a href="http://stackoverflow.com/questions/151505/difference-between-a-class-and-a-module" target="_blank">Stackoverflow</a>
 
 
 	</div>
