@@ -12,7 +12,16 @@ font-size: 3.0em;
 .img{
 	width: 400px;
 	height: 300px;
-	border-radius: 15%
+	border-radius: 5px;
+	
+}
+.jpg{
+	width: 300px;
+	height: 200px;
+	float: left;
+	padding: 5px;
+	border-radius: 10px;
+
 }
 
 .content{
