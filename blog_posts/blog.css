@@ -23,6 +23,9 @@ font-size: 3.0em;
 	border-radius: 10px;
 
 }
+.video{
+	float: left;
+}
 
 .content{
 font-size: 1.2em;
