@@ -1,5 +1,6 @@
 body{
-background: linear-gradient(#696969, lightblue );
+
+background: linear-gradient(#18bc9c, #fff, #2c3e50);
 margin: 10%, 15%}
 
 #header {font-family: HelveticaNeue-UltraLight; font-style: bold;
