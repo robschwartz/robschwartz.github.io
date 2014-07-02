@@ -17,6 +17,11 @@ p.small {
     border-radius: 30%;
 
 }
+.jpg{
+    width: 360px;
+    height: 240px;
+
+}
 /*end of added css*/
 a,
 a:hover,
