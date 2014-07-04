@@ -41,7 +41,7 @@ box-shadow: 10px 10px 10px #888888;
 
 }
 a:link{color: black;}
-a:visited{color: white;}
+a:visited{color: black;}
 a:hover{color: blue;};
 a:active{color: pink;}
 
