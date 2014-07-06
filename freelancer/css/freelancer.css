@@ -18,10 +18,20 @@ p.small {
 
 }
 .jpg{
-    width: 360px;
-    height: 240px;
-
+    max-height: 240px;
+    max-width: 360px;
+    width:  100%;
+    height: 100%;
 }
+/*@media(min-width: 800px) {
+    .jpg{
+     max-height: 150px;
+    max-width: 150px;
+    width:  100%;
+    height: 100%;
+    }
+}*/
+
 /*end of added css*/
 a,
 a:hover,
