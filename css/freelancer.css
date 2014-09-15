@@ -461,7 +461,7 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     #portfolio .portfolio-item .portfolio-link .caption {
         position: absolute;
         width: 90%;
