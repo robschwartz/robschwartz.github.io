@@ -1,0 +1,89 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+color : black;
+margin: 0 auto 0 auto;
+	}
+
+#main{
+	background-image: url("http://4.bp.blogspot.com/-XHmtuP89bSQ/TkINjZ3C94I/AAAAAAAAAQU/8_OiAYfqxoA/s1600/Chicago-Skyline-at-Night_1_.jpg");
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+} 
+
+.sub-section{
+	position: relative;
+	
+}
+
+#main-header{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 4em;
+	padding: 40px 20px;
+	text-align: left;
+
+}
+
+
+#list ul{
+	margin: 0;
+	text-align: left;
+list-style-type: none;
+font-size: 2em;
+font-family: arial;
+padding: 10px 20px;
+height: 550px;
+}
+
+#list ul li{
+	display: inline;
+	text-align: left;
+}
+#list ul li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+	text-align: left;
+}
+#list ul li a:hover{
+	color: yellow;
+	transition: .5s;
+}
+#about-me{
+	font-size: 4em;
+	font-family: cursive;
+	background: linear-gradient(#070719, #00FFFF, #070719);
+	padding: 250px 100px 250px 100px;
+	height: 450px;
+	text-align: center;
+}
+
+
+#exp{
+	background-color: #ffa;
+	font-size: 4em;
+	padding: 10px 30px;
+	font-family: arial;
+	color: black;
+}
+#list2{
+	margin: 0;
+	text-align: left;
+list-style-type: none;
+font-size: 1.5em;
+font-family: arial;
+padding: 10px 20px;
+height: 350px;
+display: inline;
+}
+#list2 ul li{
+	display: inline;
+	text-align: left;
+}
