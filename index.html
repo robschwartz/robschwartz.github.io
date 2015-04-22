@@ -16,6 +16,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/elevator.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -485,6 +486,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</div>
 
 			<!-- Footer -->
+			<div class="elevator-button">Back to Top</div>
+			<script>
+			// Elevator script included on the page, already.
+				window.onload = function() {
+				  var elevator = new Elevator({
+				    element: document.querySelector('.elevator-button'),
+				    duration: 3000 // milliseconds
+				  });
+				}
+			</script>
 				<section id="footer">
 					<div class="container">
 						<ul class="copyright">
